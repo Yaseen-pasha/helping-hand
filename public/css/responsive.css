@@ -304,13 +304,18 @@
     }
     .about_row {
         margin: 30px -8px -85px -25px;
-        width: 98%;
+        width: 100%;
         display: block;
+        width: 100%;
+        padding-right: 25px;
     }
     .cont1 {
         margin-bottom: 20px;
         margin-right: 10%;
         margin-left: 10%;
+    }
+    .cont_about1 {
+        width: 80%;
     }
     .serv5about{
         width: max-content;
@@ -319,6 +324,9 @@
         width: 60%;
         width: 100%;
     } */
+    .thanks_section {
+        height: 70vh;
+    }
     .serv4_thank{
         padding-top: 10px;
         text-decoration: underline;
@@ -368,7 +376,7 @@
     }
     .about_bg {
         display: block;
-        height: 132vh;
+        height: 85vh;
         background: rgba(0, 0, 0, 0.75) url(../images/support.jpg);
         background-attachment: fixed;
         background-position: bottom;
@@ -414,7 +422,7 @@
     .education {
         display: flex;
         justify-content: center;
-        height: 44vh;
+        height: 35vh;
         flex-direction: column;
         /* margin-top: 21px; */
     }  
@@ -425,8 +433,11 @@
     }
     .cont {
         margin-bottom: 10px;
-        /* margin-left: 28px; */
+        margin-left: 56px;
         margin-top: 15px;
+    }
+    .cont_about2 {
+        margin-left: 100px;
     }
     .merriage_row {
         margin: 4px 0px 0px 4px;
@@ -597,9 +608,6 @@
     }
     .sub-header2_about {
         height: 55vh;
-    }
-    .about_bg {
-        height: 180vh;
     }
     .sub-header2_contact {
         height: 12vh;
