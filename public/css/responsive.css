@@ -214,6 +214,12 @@
         width: 85vw;
         display: block;
         margin: auto;
+        height: 90vh;
+    }
+    .shelter_row{
+        width: 85vw;
+        display: block;
+        margin: auto;
         height: 40vh;
     }
     .rowm{
@@ -522,7 +528,7 @@
     font-size: 14px;
    }
     .park_remarks{
-    font-size: 14px;
+    font-size: 12px;
     width: 93%;
    }
    .center_food{
@@ -562,9 +568,9 @@
     .h-nav {
         height: 37px;
     }
-    .sub-header21 {
+    /* .sub-header21 {
         height: 60vh;
-    }
+    } */
     .sub-header2_education {
         height: 30vh;
         margin-top: 15px;
