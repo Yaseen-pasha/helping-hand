@@ -257,6 +257,9 @@
         width: 30%;
         margin-top: 20px;
     }
+    .serv_house {
+        font-size: 19px;
+    }
     .household img {
         width: 60px;
         height: 60px;
@@ -303,7 +306,7 @@
         height: 33vh;
     }
     .about_row {
-        margin: 30px -8px -85px -25px;
+        margin: -15px 0px -100px -25px;
         width: 98%;
         display: block;
     }
@@ -321,11 +324,14 @@
     } */
     .serv4_thank{
         padding-top: 10px;
+        font-size: 17px;
         text-decoration: underline;
+        margin-bottom: -15px;
+        margin-left: 25px;
     }
     .serv4 {
         color: red;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         font-size: 17px;
     }
     .contact_row {
@@ -398,9 +404,6 @@
     .txtsub-medical{
         padding-top: 20px;
     }
-    .txtsub-container{
-        /* padding: 0px; */
-    }
     .txtsub-container_education{
         padding: 0px;
     }
@@ -428,6 +431,9 @@
         margin-bottom: 10px;
         /* margin-left: 28px; */
         margin-top: 15px;
+    }
+    .cont_about2{
+        margin-left: 50px;
     }
     .merriage_row {
         margin: 4px 0px 0px 4px;
@@ -598,9 +604,6 @@
     }
     .sub-header2_about {
         height: 55vh;
-    }
-    .about_bg {
-        height: 138vh;
     }
     .sub-header2_contact {
         height: 12vh;
