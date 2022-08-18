@@ -368,13 +368,14 @@
     }
     .about_bg {
         display: block;
-        height: 132vh;
-        background: rgba(0, 0, 0, 0.75) url(../images/support.jpg);
+        /* background: rgba(0, 0, 0, 0.75) url(../images/support.jpg);
         background-attachment: fixed;
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;
-        background-blend-mode: darken;
+        background-blend-mode: darken; 
+        height: 132vh; */
+
     }
     .trust {
         font-size: 20px;
@@ -599,7 +600,7 @@
         height: 55vh;
     }
     .about_bg {
-        height: 180vh;
+        height: 138vh;
     }
     .sub-header2_contact {
         height: 12vh;
