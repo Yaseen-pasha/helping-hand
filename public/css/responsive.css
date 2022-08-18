@@ -1,0 +1,608 @@
+@media only screen and (max-width:1100px){
+    .nav-list{
+        display: block;
+        width: 36vw;
+        text-align: center; 
+        margin-left: 35px;
+    }
+    .navbar{
+        height: 330px;
+        transition: all 0.4s ease-out;
+    }
+    .rightNav{
+        flex-direction: column;
+        align-items: center;
+    }
+    #search{
+    font-size: 13px;
+    padding: 2px 0px 1px 0px;
+    width: 45vw;
+    margin-left: 31px;
+    }
+    .btn-sm{
+    /* border: 2px solid white; */
+    font-size: 12px;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 5vh;
+    }
+    .v-class{
+        content-visibility: hidden;
+    }
+    .main{
+        font-size: 12px;
+        padding-top: 5vh;
+    }
+    .nav2{
+        padding: 7px;
+    }
+    .nav2:hover {
+        font-size: 16px;
+    }
+    .serv_index {
+        font-size: 17px;
+    }
+    .ceopara1 {
+        font-size: 14px;
+    }
+    .image2 img{
+        width: 40vw;
+        padding: 7px;
+        border: 2px solid white;
+    }
+    .txt-container {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 80vh;
+        width: -webkit-fill-available;
+        /* position: absolute;
+        bottom: 0; */
+    }
+    .txt-box{
+        width: 97vw;
+        padding: 4px 0 0px 8px;
+        font-size: 12px;
+    }
+    .sub-box{
+        font-size: 11px;
+    }
+    .slider{
+        font-size: 18px;
+    }
+    .amz{
+        height: 21px;
+    }
+    @keyframes slider{
+        0% {margin-top: -100px;}
+        5% {margin-top: -41px;}
+        30% {margin-top: -41px;}
+        35% {margin-top: 0px;}
+        65% {margin-top: 0px;}
+        70% {margin-top: 42px;}
+        100% {margin-top: 42px;}
+    }
+    .btn{
+        font-size: 12px;
+    }
+    .section{
+        padding:7px 6px 0px 8px;
+        width: auto;
+    }
+    .city{
+        font-size: 17px;
+    }
+    .building{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+    }
+    .building img{
+        width: 96vw;
+    margin: 6px 0px 8px 0px;
+    align-items: center;
+    display: block;
+    }
+    .h-secondary {
+        font-size: 16px;
+    }
+    .sponsors img{
+        height: 200px;
+    }
+    .mission{
+        width: 96%;
+        margin: auto;
+    }
+    .aims{
+        width: 95%;
+        margin: auto;
+    }
+    .navbarindex{
+        font-size: 17px;
+    }
+    .navbar2main{
+        display: block;
+        width: 92%;
+        margin: auto;
+    }
+    .footer{
+        font-size: 9px;
+    }
+    .contb{
+        margin-bottom: 12px;
+        margin-left: 23px;
+        margin-top: 12px;
+    }
+    .contb1{
+        margin: auto;
+    }
+    .cont2 {
+        margin-bottom: 20px;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .medical_row {
+        margin: 30px 0 0 3px;
+        width: 80%;
+        display: flex;
+        margin: auto;
+        /* padding-left: 20px; */
+    }
+    .benefit {
+        margin-right: 130px;
+    }
+    .benefit_medical {
+        margin-right: 130px;
+        width: 50%;
+    }
+    .sub-header17 {
+        height: 88vh;
+        width: 96%;
+    }
+    .navbar2 {
+        padding: 20px 0px 6px 0px;
+    }
+    .food_row{
+        /* margin: 0; */
+        display: block;
+        width: 100%;
+    }
+    .serv {
+        font-size: 14px;
+    }
+    .food{
+        width: 90%;
+    }
+    .benefit {
+        font-size: 15px;
+    }
+    .sub-header{
+        height: 38vh;
+        margin-bottom: 20px;
+    }
+    .h-primary{
+        font-size: 20px;
+    }
+    #services{
+        margin:0px 0 7px 0px;
+    }
+    #services .box{
+        margin-bottom: 10px;
+    }
+    .serv1 {
+        font-size: 14px;
+    }
+    .sub-header1{
+        height: 38vh;
+        margin-bottom: 20px;
+    }
+    .main1 {
+        font-size: 13px;
+    }
+    .mob {
+        font-size: 16px;
+    }
+    .map iframe {
+        height: 30vh;
+        width: 57vw;
+        padding-left: 13px;
+    }
+    .row{
+        width: 85vw;
+        display: block;
+        margin: auto;
+        height: 45vh;
+    }
+    .rowm{
+        width: 55vw;
+        display: block;
+    }
+    .details img {
+
+        width: 10%;
+    }
+    .contact{
+        display: initial;
+        /* display: block; */
+    }
+    .contact1{
+        width: 95%;
+
+    }
+    .thumb img {
+        height: 130px;
+    }
+    .contb1{
+        margin-bottom: 10px;
+    /* margin-left: 0px; */
+    margin-top: 12px;
+    }
+    .standard{
+        display: table;
+        margin: auto;
+    }
+    .home{
+        display: flex;
+    }
+    .house{
+        width: 30%;
+        margin-top: 20px;
+    }
+    .household img {
+        width: 60px;
+        height: 60px;
+        /* margin-top: 39%; */
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .food{
+        display: table;
+    }
+    .empower{
+        height: 15vh;
+    }
+    .emppara {
+        /* padding: 13px; */
+        font-size: 14px;
+    }
+    .sub-header2{
+        height: 26vh;
+    }
+    .sub-header2_contact{
+        height:9vh;
+    }
+    .sub-header2_education{
+        height: 20vh;
+        margin-top: 15px;
+    }
+    .sub-header2_marriage{
+        height: 29vh;
+    }
+    .cont2_covered {
+        margin-bottom: 20px;
+        margin-right: 10%;
+        margin-left: 25%;
+    }
+    .marriage_covered{
+        width: 62%;
+    }
+
+    .sub-header2_about{
+        height: 41vh;
+    }
+    .subheader2_food{
+        height: 33vh;
+    }
+    .about_row {
+        margin: 30px -8px -85px -25px;
+        width: 98%;
+        display: block;
+    }
+    .cont1 {
+        margin-bottom: 20px;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .serv5about{
+        width: max-content;
+    }
+    /* .render{
+        width: 60%;
+        width: 100%;
+    } */
+    .serv4_thank{
+        padding-top: 10px;
+        text-decoration: underline;
+    }
+    .serv4 {
+        color: red;
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+    .contact_row {
+        margin: 30px 0 0 3px;
+        width: 90%;
+    }
+    .sub-header21 {
+        height: 47vh;
+        background-position: center;
+        background-size: cover;
+    }
+    .about_row2 {
+        margin: 0px 0 0 -22px;
+        width: 92%;
+        display: block;
+    }
+    .sub-header_house {
+        height: 44vh;
+    }
+    .paras1{
+        width: 80%;
+        margin: auto;
+    }
+    .sub-header15{
+        height: 65vh;
+    }
+    .sub-header16 {
+        height: 65vh;
+        width: 96%;
+    }
+    .medical_bg {
+        display: block;
+        height: 125vh;
+        background: rgba(0, 0, 0, 0.75) url(../images/medical_bg.jpg);
+        background-attachment: fixed;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    .about_bg {
+        display: block;
+        height: 132vh;
+        background: rgba(0, 0, 0, 0.75) url(../images/support.jpg);
+        background-attachment: fixed;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    .trust {
+        font-size: 20px;
+    }
+    .serv5about {
+        font-size: 17px;
+    }
+    .nap {
+        font-size: 17px;
+    }
+    .medical img {
+        width: 40px;
+        /* margin: 9px; */
+        /* border-radius: 13px; */
+        height: 45px;
+        /* margin-top: 39%; */
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+    .txtsub-medical{
+        padding-top: 20px;
+    }
+    .txtsub-container{
+        /* padding: 0px; */
+    }
+    .txtsub-container_education{
+        padding: 0px;
+    }
+    .row_medical{
+        width: 77%;
+        display: block;
+        margin: auto;
+    }
+    .edu_r{
+        display: flex;
+    }
+    .education {
+        display: flex;
+        justify-content: center;
+        height: 44vh;
+        flex-direction: column;
+        /* margin-top: 21px; */
+    }  
+    .cont3{
+        margin-bottom: 20px;
+        margin-right: -12vw;
+        margin-top: 25px;
+    }
+    .cont {
+        margin-bottom: 10px;
+        /* margin-left: 28px; */
+        margin-top: 15px;
+    }
+    .merriage_row {
+        margin: 4px 0px 0px 4px;
+        width: 95%;
+    }
+    .shaadi {
+        display: flex;
+        width: 97%;
+    }
+    .marriage_row {
+        display: block;
+        width: 100%;
+    }
+    .sub-header18 {
+        height: 49vh;
+    }
+    .conts{
+        width: 75%;
+        margin: auto;
+    }
+    .merriage img {
+        width: 30px;
+        /* margin: 9px; */
+        /* border-radius: 13px; */
+        height: 40px;
+        /* margin-top: 39%; */
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .row_house {
+        width: 95%;
+    }
+    .med {
+        justify-content: center;
+        display: flex;
+        font-size: 7px;
+        text-align: center;
+    }
+    .education img {
+        width: 80px;
+        /* margin: 9px; */
+        /* border-radius: 13px; */
+        height: 85px;
+        margin-bottom: 10%;
+    }
+    .header {
+        height: 85vh;
+        width: 100vw;
+        background: rgba(0, 0, 0, 0.4) url(../images/bgg13.jpg);
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    .navbar img {
+        position: absolute;
+        height: 30px;
+        top: 5px;
+        width: 70px;
+    }
+    .rightNav{
+        padding-left: 14px;
+        display: flex;
+        margin-right: 13%;
+        flex-direction: row;
+    }
+    .nedia{
+        display: flex;
+    }
+    /* .background {
+        background: rgba(0, 0, 0, 0.5) url(../images/navv.jpg);
+    } */
+    .para1 {
+        padding: 0px 16px 5px 16px;
+        font-size: 15px;
+    }
+    .nav-list li {
+        list-style: none;
+        padding: 6px 0 6px 45px;
+    }
+    .nav-list li a{
+        color: green;
+        border-radius: 2px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 16px;
+        background: lightgray;
+        display: block;
+        border: 1px solid black;
+        border-radius: 2px;
+    }
+    .nav-list li a:hover{
+        font-size: 16px;
+
+    }
+    .btm{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .park{
+    font-size: 14px;
+   }
+    .park_remarks{
+    font-size: 14px;
+    width: 93%;
+   }
+   .center_food{
+    text-align: start;
+   }
+   .cont-col2 input, .cont-col2 textarea, .center1{
+    display: block;
+    margin: auto;
+    width: 300px;
+    /* padding: 2px;  */
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+    outline: none;
+    /* width: 300px; */
+    padding: 7px;
+    }
+    .thought{
+        font-size: 13px;
+    }
+    .cont5_contact{
+        width: 90%;
+        margin: auto;
+    }
+    /* .render{
+        height: 55vh;
+        padding-bottom: 15px;
+    } */
+    .fa_icon{
+        font-size: 26px;
+    }
+}   
+@media only screen and (max-width:360px){
+    .txt-box {
+        font-size: 11px;
+    }
+    .h-nav {
+        height: 37px;
+    }
+    .sub-header21 {
+        height: 60vh;
+    }
+    .sub-header2_education {
+        height: 30vh;
+        margin-top: 15px;
+    }
+    .sub-header15 {
+        height: 82vh;
+    }
+    .sub-header2 {
+        height: 38vh;
+    }.medical_bg {
+        height: 165vh;
+    }
+    .sub-header17 {
+        height: 115vh;
+    }
+    .sub-header2_marriage {
+        height: 40vh;
+    }
+    .sub-header18 {
+        height: 63vh;
+    }
+    .sub-header_house {
+        height: 55vh;
+    }
+    .sub-header2_about {
+        height: 55vh;
+    }
+    .about_bg {
+        height: 180vh;
+    }
+    .sub-header2_contact {
+        height: 12vh;
+    }
+    /* .render {
+        height: 75vh;
+        padding-bottom: 15px;
+    } */
+    .fa_icon{
+        font-size: 26px;
+    }
+}
