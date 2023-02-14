@@ -984,3 +984,15 @@
     position: fixed;
     z-index: 100;
 }
+.min-zindex{
+    position: relative;
+    z-index: 2;
+}
+.max-zindex{
+    position: relative;
+    z-index: 10;
+}
+.max-zindex2{
+    position: relative;
+    z-index: 20;
+}
