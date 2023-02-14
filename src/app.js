@@ -10,7 +10,7 @@ dotenv.config({path:"./config.env"});
 require ("./db/conn");
 app.use(express.json());
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 4000;
 
 const staticPath = path.join(__dirname, '../public');
 const templatePath = path.join(__dirname, '../templates/views');
